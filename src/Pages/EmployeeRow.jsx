@@ -7,7 +7,7 @@ function EmployeeRow({ name, email, dept, role, status, join, checkin, logout })
   }[status];
 
   return (
-    <tr className="border-b last:border-none">
+    <tr className="border-b last:border-none font-[poppins]">
       <td className="px-6 py-4">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-full bg-gray-200 flex items-center justify-center font-semibold text-gray-600">
